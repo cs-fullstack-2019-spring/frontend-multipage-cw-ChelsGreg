@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Abyssinica SIL";
+
+}
+
+
+h4{ text-align: center;
+    grid-row: 1fr;
+    border:none;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+a{
+    color: #696969;
+}
+
+div{
+    text-align:center;
+    font-size: xx-large;
+}
+
+section{
+    text-align: center;
+    font-size: larger;
+    color: white;
+    border:1px solid black;
+    grid-column:1/5;
+    grid-row: 2;
+    background: red;
+    padding: 200px;
+}
+
+footer{
+    border:1px solid black;
+    grid-column: 1/5;
+    grid-row:3;
+}
+
+.blackBack{
+    color: grey;
+    background: black;
+}
